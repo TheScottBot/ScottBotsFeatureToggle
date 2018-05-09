@@ -1,0 +1,9 @@
+c:\users\p10290493\documents\visual studio 2015\Projects\FeatureToggle\FeatureToggle\bin\Debug\FeatureToggle.dll
+c:\users\p10290493\documents\visual studio 2015\Projects\FeatureToggle\FeatureToggle\bin\Debug\FeatureToggle.pdb
+c:\users\p10290493\documents\visual studio 2015\Projects\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.dll
+c:\users\p10290493\documents\visual studio 2015\Projects\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.pdb
+C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\bin\Debug\FeatureToggle.dll
+C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\bin\Debug\FeatureToggle.pdb
+C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\obj\Debug\FeatureToggle.csprojResolveAssemblyReference.cache
+C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\obj\Debug\FeatureToggle.dll
+C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\obj\Debug\FeatureToggle.pdb
