@@ -12,7 +12,7 @@
         [Test]
         public void TestToggleStatusActiveIsReturnedWhenParsingAnItemThatIsToggledOn()
         {
-            IConfigParser configParser = new ConfigParser();
+            IToggleParser configParser = new ToggleParser();
             IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
 
             var toggleStatus = featureToggle.GetToggleState(configParser, "ButtonToggle");
@@ -22,7 +22,7 @@
         [Test]
         public void TestToggleStatusInactiveIsReturnedWhenParsingAnItemThatIsToggledOff()
         {
-            IConfigParser configParser = new ConfigParser();
+            IToggleParser configParser = new ToggleParser();
             IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
 
             var toggleStatus = featureToggle.GetToggleState(configParser, "NotFinished");
@@ -32,7 +32,7 @@
         [Test]
         public void TestOutOfRangeExceptionIsReturnedWhenParsingAnItemThatIsToggledAsdf()
         {
-            var configParser = new ConfigParser();
+            var configParser = new ToggleParser();
             IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
             Assert.Throws<ArgumentOutOfRangeException>(() => featureToggle.GetToggleState(configParser, "asdf"));
         }
@@ -40,7 +40,7 @@
         [Test]
         public void TestNullReferenceExceptionIsReturnedWhenParsingAnItemThatDoesNotExist()
         {
-            var configParser = new ConfigParser();
+            var configParser = new ToggleParser();
             IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
             Assert.Throws<NullReferenceException>(() => featureToggle.GetToggleState(configParser, "wewewewewewewewe"));
         }
@@ -87,7 +87,7 @@
 
         protected void FakeMethod(string keyName, out string changeMe)
         {
-                IConfigParser configParser = new ConfigParser();
+                IToggleParser configParser = new ToggleParser();
                 IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
 
                 var response = featureToggle.GetToggleState(configParser, keyName);

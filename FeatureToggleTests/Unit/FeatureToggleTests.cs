@@ -12,7 +12,7 @@
         [Test]
         public void TestSuccessfullParseReturnsToggleStatusActive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<bool>();
             var toggleResponse = toggle.GetToggleState(testParser, "positive");
             Assert.AreEqual(ToggleStatus.Active, toggleResponse);
@@ -20,7 +20,7 @@
         [Test]
         public void TestUnSuccessfullParseReturnsToggleStatusInactive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<bool>();
             var toggleResponse = toggle.GetToggleState(testParser, "anythingElse");
             Assert.AreEqual(ToggleStatus.Inactive, toggleResponse);
@@ -29,7 +29,7 @@
         [Test]
         public void TestSuccessfullFuncCallWhenToggleStatusActive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<bool>();
             Func<bool> theAction = AlwaysReturnTrue;
 
@@ -40,7 +40,7 @@
         [Test]
         public void TestUnSuccessfullFuncCallWhenToggleStatusInactive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<bool>();
             Func<bool> theAction = AlwaysReturnTrue;
 
@@ -51,7 +51,7 @@
         [Test]
         public void TestSuccessfullFuncStringCallWhenToggleStatusActive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<string>();
             Func<string> theAction = AlwaysReturnFire;
 
@@ -62,7 +62,7 @@
         [Test]
         public void TestUnSuccessfullFuncStringCallWhenToggleStatusInactive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<string>();
             Func<string> theAction = AlwaysReturnFire;
 
@@ -73,7 +73,7 @@
         [Test]
         public void TestSuccessfullFuncTestDataTypeCallWhenToggleStatusActive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<TestDataType>();
             Func<TestDataType> theAction = AlwaysReturnNewTestDataType;
 
@@ -84,7 +84,7 @@
         [Test]
         public void TestUnSuccessfullFuncTestDataTypeCallWhenToggleStatusInactive()
         {
-            IConfigParser testParser = new ConfigParserTestDouble();
+            IToggleParser testParser = new ToggleParserTestDouble();
             var toggle = new FeatureToggle<TestDataType>();
             Func<TestDataType> theAction = AlwaysReturnNewTestDataType;
 
@@ -113,7 +113,7 @@
         public string HappynessIs = "Happy";
     }
 
-    internal class ConfigParserTestDouble : IConfigParser
+    internal class ToggleParserTestDouble : IToggleParser
     {
         public bool ToggleConfigTagExists()
         {
@@ -125,7 +125,7 @@
             return toggle == "positive";
         }
 
-        public bool ParseBoolValueFromConfig(string status)
+        public bool ParseBoolValueFromSource(string status)
         {
             throw new System.NotImplementedException();
         }

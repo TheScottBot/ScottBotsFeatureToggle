@@ -10,28 +10,28 @@
         [Test]
         public void TestTrueIsReturnedWhenParsingAnItemThatIsToggledOn()
         {
-            var configParser = new ConfigParser();
+            var configParser = new ToggleParser();
             Assert.IsTrue(configParser.GetToggleStatus("ButtonToggle"));
         }
 
         [Test]
         public void TestFalseIsReturnedWhenParsingAnItemThatIsToggledOff()
         {
-            var configParser = new ConfigParser();
+            var configParser = new ToggleParser();
             Assert.IsFalse(configParser.GetToggleStatus("NotFinished"));
         }
 
         [Test]
         public void TestOutOfRangeExceptionIsReturnedWhenParsingAnItemThatIsToggledAsdf()
         {
-            var configParser = new ConfigParser();
+            var configParser = new ToggleParser();
             Assert.Throws<ArgumentOutOfRangeException>(() => configParser.GetToggleStatus("asdf"));
         }
 
         [Test]
         public void TestNullReferenceExceptionIsReturnedWhenParsingAnItemThatDoesNotExist()
         {
-            var configParser = new ConfigParser();
+            var configParser = new ToggleParser();
             Assert.Throws<NullReferenceException>(() => configParser.GetToggleStatus("wewewewewewewewe"));
         }
     }

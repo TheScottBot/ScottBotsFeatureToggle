@@ -20,3 +20,16 @@ C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggleTests\bin\Debug\nunit.fr
 C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggleTests\obj\Debug\FeatureToggleTests.csprojResolveAssemblyReference.cache
 C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggleTests\obj\Debug\FeatureToggleTests.dll
 C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggleTests\obj\Debug\FeatureToggleTests.pdb
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggleTests.dll.config
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggleTests.dll
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggleTests.pdb
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggle.dll
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\nunit.framework.dll
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggle.pdb
+D:\FeatureToggle\FeatureToggleTests\bin\Debug\nunit.framework.xml
+D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csprojResolveAssemblyReference.cache
+D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csproj.CoreCompileInputs.cache
+D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csproj.CopyComplete
+D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.dll
+D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.pdb

@@ -5,10 +5,10 @@
     using System.Configuration;
     using Interfaces;
 
-    public class ConfigParser : IConfigParser
+    public class ToggleParser : IToggleParser
     {
         private readonly NameValueCollection _toggles;
-        public ConfigParser()
+        public ToggleParser()
         {
             if (ToggleConfigTagExists())
             {
@@ -23,10 +23,10 @@
 
         public bool GetToggleStatus(string toggle)
         {
-            return ParseBoolValueFromConfig(_toggles.GetValues(toggle)?[0]);
+            return ParseBoolValueFromSource(_toggles.GetValues(toggle)?[0]);
         }
 
-        public bool ParseBoolValueFromConfig(string status)
+        public bool ParseBoolValueFromSource(string status)
         {
             if (status == "1" || status.ToLower() == "true")
             {

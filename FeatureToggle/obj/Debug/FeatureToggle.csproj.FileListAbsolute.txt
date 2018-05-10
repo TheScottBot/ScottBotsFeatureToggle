@@ -7,3 +7,9 @@ C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\bin\Debug\FeatureToggle
 C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\obj\Debug\FeatureToggle.csprojResolveAssemblyReference.cache
 C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\obj\Debug\FeatureToggle.dll
 C:\Users\P10290493\Documents\GitHub\GitRep\FeatureToggle\obj\Debug\FeatureToggle.pdb
+D:\FeatureToggle\FeatureToggle\bin\Debug\FeatureToggle.dll
+D:\FeatureToggle\FeatureToggle\bin\Debug\FeatureToggle.pdb
+D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.csprojResolveAssemblyReference.cache
+D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.csproj.CoreCompileInputs.cache
+D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.dll
+D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.pdb

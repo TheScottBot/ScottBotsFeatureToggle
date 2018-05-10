@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\ConfigParser.cs" />
+    <Compile Include="Classes\ToggleParser.cs" />
     <Compile Include="Classes\FeatureToggle.cs" />
-    <Compile Include="Interfaces\IConfigParser.cs" />
+    <Compile Include="Interfaces\IToggleParser.cs" />
     <Compile Include="Interfaces\IFeatureToggle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Enums\ToggleStatus.cs" />

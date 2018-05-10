@@ -1,9 +1,9 @@
 ﻿namespace FeatureToggle.Interfaces
 {
-    public interface IConfigParser
+    public interface IToggleParser
     {
         bool GetToggleStatus(string toggle);
 
-        bool ParseBoolValueFromConfig(string status);
+        bool ParseBoolValueFromSource(string status);
     }
 }
