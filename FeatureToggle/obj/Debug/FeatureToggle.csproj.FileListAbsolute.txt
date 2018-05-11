@@ -13,3 +13,11 @@ D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.csprojResolveAssemblyRefe
 D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.csproj.CoreCompileInputs.cache
 D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.dll
 D:\FeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\bin\Debug\FeatureToggle.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\bin\Debug\FeatureToggle.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.csprojResolveAssemblyReference.cache
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.csproj.CoreCompileInputs.cache
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\obj\Debug\FeatureToggle.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\bin\Debug\ToggleExceptions.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggle\bin\Debug\ToggleExceptions.pdb

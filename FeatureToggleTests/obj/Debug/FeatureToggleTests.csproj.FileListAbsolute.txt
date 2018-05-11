@@ -33,3 +33,17 @@ D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csproj.CoreComp
 D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csproj.CopyComplete
 D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.dll
 D:\FeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggleTests.dll.config
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggleTests.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggleTests.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggle.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\nunit.framework.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\FeatureToggle.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\nunit.framework.xml
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csprojResolveAssemblyReference.cache
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.csproj.CoreCompileInputs.cache
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\obj\Debug\FeatureToggleTests.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\ToggleExceptions.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\FeatureToggleTests\bin\Debug\ToggleExceptions.pdb

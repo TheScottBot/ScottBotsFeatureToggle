@@ -4,6 +4,7 @@
     using System.Collections.Specialized;
     using System.Configuration;
     using Interfaces;
+    using ToggleExceptions;
 
     public class ToggleParser : IToggleParser
     {
@@ -23,6 +24,11 @@
 
         public bool GetToggleStatus(string toggle)
         {
+            if (_toggles.GetValues(toggle)?[0] == null)
+            {
+                throw new ToggleDoesNotExistException();
+            }
+
             return ParseBoolValueFromSource(_toggles.GetValues(toggle)?[0]);
         }
 
@@ -32,14 +38,15 @@
             {
                 return true;
             }
-            if (status == "0" || status.ToLower() == "false")
+            else if (status == "0" || status.ToLower() == "false")
             {
                 return false;
             }
             else
             {
-                throw new ArgumentOutOfRangeException();
+                throw new ToggleParsedOutOfRangeException();
             }
+            throw new ToggleDoesNotExistException();
         }
     }
 }

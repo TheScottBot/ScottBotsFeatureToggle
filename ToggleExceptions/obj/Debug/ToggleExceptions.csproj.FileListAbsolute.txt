@@ -1,0 +1,5 @@
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\ToggleExceptions\bin\Debug\ToggleExceptions.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\ToggleExceptions\bin\Debug\ToggleExceptions.pdb
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\ToggleExceptions\obj\Debug\ToggleExceptions.csproj.CoreCompileInputs.cache
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\ToggleExceptions\obj\Debug\ToggleExceptions.dll
+C:\Users\P10290493\Source\Repos\ScottBotsFeatureToggle\ToggleExceptions\obj\Debug\ToggleExceptions.pdb

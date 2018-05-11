@@ -3,6 +3,7 @@
     using System;
     using FeatureToggle.Classes;
     using NUnit.Framework;
+    using ToggleExceptions;
 
     [TestFixture]
     public class ConfigParserTests
@@ -22,17 +23,17 @@
         }
 
         [Test]
-        public void TestOutOfRangeExceptionIsReturnedWhenParsingAnItemThatIsToggledAsdf()
+        public void TestToggleParsedOutOfRangeExceptionIsReturnedWhenParsingAnItemThatIsToggledAsdf()
         {
             var configParser = new ToggleParser();
-            Assert.Throws<ArgumentOutOfRangeException>(() => configParser.GetToggleStatus("asdf"));
+            Assert.Throws<ToggleParsedOutOfRangeException>(() => configParser.GetToggleStatus("asdf"));
         }
 
         [Test]
-        public void TestNullReferenceExceptionIsReturnedWhenParsingAnItemThatDoesNotExist()
+        public void TestToggleDoesNotExistExceptionIsReturnedWhenParsingAnItemThatDoesNotExist()
         {
             var configParser = new ToggleParser();
-            Assert.Throws<NullReferenceException>(() => configParser.GetToggleStatus("wewewewewewewewe"));
+            Assert.Throws<ToggleDoesNotExistException>(() => configParser.GetToggleStatus("wewewewewewewewe"));
         }
     }
 }

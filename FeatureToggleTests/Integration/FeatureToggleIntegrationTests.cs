@@ -5,6 +5,7 @@
     using FeatureToggle.Enums;
     using FeatureToggle.Interfaces;
     using NUnit.Framework;
+    using ToggleExceptions;
 
     [TestFixture]
     public class FeatureToggleIntegrationTests
@@ -30,19 +31,19 @@
         }
 
         [Test]
-        public void TestOutOfRangeExceptionIsReturnedWhenParsingAnItemThatIsToggledAsdf()
+        public void TestToggleParsedOutOfRangeExceptionIsReturnedWhenParsingAnItemThatIsToggledAsdf()
         {
             var configParser = new ToggleParser();
             IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
-            Assert.Throws<ArgumentOutOfRangeException>(() => featureToggle.GetToggleState(configParser, "asdf"));
+            Assert.Throws<ToggleParsedOutOfRangeException>(() => featureToggle.GetToggleState(configParser, "asdf"));
         }
 
         [Test]
-        public void TestNullReferenceExceptionIsReturnedWhenParsingAnItemThatDoesNotExist()
+        public void TestToggleDoesNotExistExceptionIsReturnedWhenParsingAnItemThatDoesNotExist()
         {
             var configParser = new ToggleParser();
             IFeatureToggle<bool> featureToggle = new FeatureToggle<bool>();
-            Assert.Throws<NullReferenceException>(() => featureToggle.GetToggleState(configParser, "wewewewewewewewe"));
+            Assert.Throws<ToggleDoesNotExistException>(() => featureToggle.GetToggleState(configParser, "wewewewewewewewe"));
         }
 
         [Test]
