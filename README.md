@@ -1,5 +1,5 @@
 # ScottBotsFeatureToggle
-Code to reduce indentation and as a result the cyclomatic complexity of an application when using toggles
+Code to reduce indentation and as a result the psychometric complexity of an application when using toggles
 
 This code uses generic types call any method if toggled on. 
 
